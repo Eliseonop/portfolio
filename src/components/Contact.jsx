@@ -40,6 +40,7 @@ export default function Contact() {
               placeholder="Nombre"
               className="border-2 border-gray-600 w-full p-2  rounded-2xl"
               name="name"
+              required
             />
           </label>
           <label className="text-center text-xl">
@@ -48,6 +49,7 @@ export default function Contact() {
               type="text"
               placeholder="Correo"
               className="border-2 border-gray-600 w-full p-2 rounded-2xl "
+              required
             />
           </label>
           <label className="text-center text-xl">
@@ -55,6 +57,7 @@ export default function Contact() {
               name="message"
               placeholder="Mensaje"
               className="border-2 border-gray-600 w-full p-2 rounded-2xl "
+              required
             />
           </label>
 

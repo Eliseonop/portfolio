@@ -85,7 +85,7 @@ function Header() {
                     smooth={true}
                     offset={50}
                     duration={500}
-                    className={` hover:text-gray-400 font-bold ${color}`}
+                    className={` hover:text-gray-400 font-bold cursor-pointer ${color}`}
                   >
                     {"Proyectos"}
                   </Link>
@@ -98,7 +98,7 @@ function Header() {
                     smooth={true}
                     offset={50}
                     duration={500}
-                    className={` hover:text-gray-400 font-bold ${color}`}
+                    className={` hover:text-gray-400 font-bold cursor-pointer ${color}`}
                   >
                     {"Conocimientos"}
                   </Link>
