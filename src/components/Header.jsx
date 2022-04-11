@@ -1,7 +1,7 @@
 import React, { useEffect, useState, useRef } from "react";
 import Button from "../utils/Button";
 import { HamburgerIcon, CloseIcon } from "@chakra-ui/icons";
-
+import { Link } from "react-scroll";
 function Header() {
   const [background, setBackground] = useState("bg-white");
   const [color, setColor] = useState("text-slate-800 ");
@@ -32,11 +32,7 @@ function Header() {
   // un arary
 
   let [open, setOpen] = useState(false);
-  let links = [
-    { name: "Inicio", link: "#home" },
-    { name: "Proyectos ", link: "#work" },
-    { name: "Conocimientos", link: "#conocimientos" },
-  ];
+
   return (
     <div ref={divRef} id="home">
       <>
@@ -49,7 +45,7 @@ function Header() {
                 className={`font-bold text-2xl cursor-pointer flex ml-6 items-center 
               `}
               >
-                Edu Falcon
+                Edu Falcón
               </div>
 
               <button
@@ -68,19 +64,55 @@ function Header() {
                   open ? "top-10 " : "top-[-690px]"
                 } md:opacity-100 shadow-md sm:shadow-none`}
               >
-                {links.map((link) => (
-                  <li key={link.name} className="md:ml-8 text-xl md:my-0 my-7">
-                    <a
-                      href={link.link}
-                      className={` hover:text-gray-400 font-bold ${color}`}
-                    >
-                      {link.name}
-                    </a>
-                  </li>
-                ))}
-                <a href="#contacto">
+                <li className="md:ml-8 text-xl md:my-0 my-7">
+                  <a
+                    href="#home"
+                    activeClass="active"
+                    spy={true}
+                    smooth={true}
+                    offset={50}
+                    duration={500}
+                    className={` hover:text-gray-400 font-bold ${color}`}
+                  >
+                    {"Inicio"}
+                  </a>
+                </li>
+                <li className="md:ml-8 text-xl md:my-0 my-7">
+                  <Link
+                    to={`work`}
+                    activeClass="active"
+                    spy={true}
+                    smooth={true}
+                    offset={50}
+                    duration={500}
+                    className={` hover:text-gray-400 font-bold ${color}`}
+                  >
+                    {"Proyectos"}
+                  </Link>
+                </li>
+                <li className="md:ml-8 text-xl md:my-0 my-7">
+                  <Link
+                    to={`conocimientos`}
+                    activeClass="active"
+                    spy={true}
+                    smooth={true}
+                    offset={50}
+                    duration={500}
+                    className={` hover:text-gray-400 font-bold ${color}`}
+                  >
+                    {"Conocimientos"}
+                  </Link>
+                </li>
+                <Link
+                  to="contacto"
+                  activeClass="active"
+                  spy={true}
+                  smooth={true}
+                  offset={50}
+                  duration={500}
+                >
                   <Button>Contactame</Button>
-                </a>
+                </Link>
               </ul>
             </div>
           </div>

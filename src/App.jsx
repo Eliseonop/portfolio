@@ -6,10 +6,10 @@ import Contact from "./components/Contact";
 
 function App() {
   return (
-    <div className="App">
+    <div className="App snap-y snap-mandatory ">
       <Header />
       <Home />
-      <Work />
+      <Work id="work" />
       <MyLearning />
       <Contact />
     </div>

@@ -5,11 +5,11 @@ import { frame } from "../assets/logos/frame.js";
 import { diseno } from "../assets/logos/Diseno";
 export default function MyLearning() {
   return (
-    <div className="h-full mt-24">
+    <div className="h-full mt-32">
       <div className="h-full ">
         <div className="text-center font-bold flex justify-center items-center flex-col">
-          <h1 id="conocimientos" className="text-5xl  ">
-            Mi aprendizaje
+          <h1 id="conocimientos" className="text-4xl pt-44 ">
+            Mis conocimientos
           </h1>
         </div>
         <div className="text-3xl mt-16 ml-14">
