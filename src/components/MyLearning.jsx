@@ -25,7 +25,7 @@ export default function MyLearning() {
           ))}
         </div>
         <div className="text-3xl mt-16 ml-14">
-          <h2>Frameworks</h2>
+          <h2>Herramientas</h2>
         </div>
         <div className="flex flex-wrap justify-center items-center gap-4 mt-16">
           {frame.map((lenguaje) => (

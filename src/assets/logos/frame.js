@@ -3,6 +3,11 @@ import react from "./frame/react.svg";
 import vue from "./frame/vue.svg";
 import flask from "./frame/flask.svg";
 import mongodb from "./mongodb.svg";
+import node from "./nodejs.svg";
+import git from "./herramientas/git-icon.svg";
+import postgres from "../postgresql (1).svg";
+import prisma from "../prisma.svg";
+import firebase from "./firebase.svg";
 export const frame = [
   {
     imagen: react,
@@ -29,5 +34,25 @@ export const frame = [
     imagen: mongodb,
     nombre: "MongoDB",
     progreso: 60,
+  },
+  {
+    imagen: node,
+    nombre: "Node Js",
+  },
+  {
+    imagen: git,
+    nombre: "Git",
+  },
+  {
+    imagen: postgres,
+    nombre: "Postgres",
+  },
+  {
+    imagen: prisma,
+    nombre: "Prisma",
+  },
+  {
+    imagen: firebase,
+    nombre: "Firebase",
   },
 ];
