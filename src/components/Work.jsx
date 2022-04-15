@@ -3,6 +3,7 @@ import proyt1 from "../assets/proyt1.png";
 import imgrick from "../assets/imgrick.png";
 import proyt3 from "../assets/proyt3.png";
 import neocoin from "../assets/neocoin.png";
+import dezzer from "../assets/dezzer.png";
 const Work = () => {
   return (
     <>
@@ -89,6 +90,27 @@ const Work = () => {
                     target="_blank"
                   >
                     <img src={neocoin} alt="3" className="w-full" />
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="w-full md:w-1/2 p-4">
+            <div className="bg-white rounded-lg shadow-lg p-6">
+              <div className="flex flex-wrap">
+                <div className="w-full p-6">
+                  <h2 className="text-2xl font-bold text-gray-800">
+                    Reproductor de musica
+                  </h2>
+                  <p className="text-gray-600 my-5">
+                    Consumiendo la api de Dezzer, logre construir un reproductor
+                    demo de musica
+                  </p>
+                  <a
+                    href="https://dazzer-tailwind.vercel.app/ "
+                    target="_blank"
+                  >
+                    <img src={dezzer} alt="3" className="w-full" />
                   </a>
                 </div>
               </div>
