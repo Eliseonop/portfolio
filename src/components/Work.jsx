@@ -39,12 +39,12 @@ const Work = () => {
               <div className="flex flex-wrap">
                 <div className="w-full p-6">
                   <h2 className="text-2xl font-bold text-gray-800">
-                    Api rick and morty
+                    Personajes de la Serie:Rick and Morty
                   </h2>
                   <p className="text-gray-600 my-5">
                     Este proyecto es un simple buscador de personajes de la
-                    serie rick and morty, fue uno de los primeros consumos de
-                    api que aprendi.
+                    serie rick and morty, inspirado en una de las series que mas
+                    me gusta y unas de los primeros consumos de api que elabore.
                   </p>
                   <a href="https://rick-api-ecru.vercel.app/" target="_blank">
                     <img src={imgrick} alt="2" className="w-full" />
