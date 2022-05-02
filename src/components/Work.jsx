@@ -2,7 +2,7 @@ import React from "react";
 import proyt1 from "../assets/proyt1.png";
 import imgrick from "../assets/imgrick.png";
 import proyt3 from "../assets/proyt3.png";
-import neocoin from "../assets/neocoin.png";
+import neocoin from "../assets/neo.png";
 import dezzer from "../assets/dezzer.png";
 const Work = () => {
   return (
@@ -34,7 +34,7 @@ const Work = () => {
               </div>
             </div>
           </div>
-          <div className="w-full md:w-1/2 p-4">
+          {/* <div className="w-full md:w-1/2 p-4">
             <div className="bg-white rounded-lg shadow-lg p-6">
               <div className="flex flex-wrap">
                 <div className="w-full p-6">
@@ -52,7 +52,7 @@ const Work = () => {
                 </div>
               </div>
             </div>
-          </div>
+          </div> */}
 
           <div className="w-full md:w-1/2 p-4">
             <div className="bg-white rounded-lg shadow-lg p-6">
@@ -86,7 +86,7 @@ const Work = () => {
                     NoCountry, aun vamos por la mitad,
                   </p>
                   <a
-                    href="https://github.com/No-Country/C4-23-t "
+                    href="https://github.com/No-Country/C4-23-t/blob/development/README.md"
                     target="_blank"
                   >
                     <img src={neocoin} alt="3" className="w-full" />
